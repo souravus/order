@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="KFCloc.css" rel="stylesheet">
+        <script src="KFC.js"></script>
+        <script src="KFC.js"></script>
+    </head>
+    <body>
+        <div class="secondcontainer">
+            <div class="leftimg"> <img class="arr" src="https://cdn-icons-png.flaticon.com/128/2985/2985161.png" onclick="arrow()" >
+            </div>
+            <div class="secondhead">
+            <h1 class="h1">CHANGE YOUR LOCATION AND ORDER</h1>
+        </div>
+        <div class="line">
+        </div>
+        <div class="body">
+            <ul class="list">
+                <li class="main" >
+                    YOUR LOCATION
+                </li>
+                <li  class="one">
+                    <input class="text" type="text"  value="" id="location">
+                </li>
+                <div class="lines"></div>
+                <li class="main">ORDER TYPE</li>
+                <li><select class="selection">
+                        <option>Delivery</option>
+                        <option>Pick Up</option>
+                        <option>Dine In</option>
+                </select></li>         
+                <li class="main">SCHEDULE FOR YOUR ORDER</li>
+                <li class="dt">Date</li>
+                <li>
+                    <input class="text1" type="text"  value="" id="date">
+                </li>
+                <div class="lines"></div>
+                <div class="col">
+                    <li class="dt">Time</li>
+                    <li>
+                        <input class="text1" type="text" value="" id="time">
+                    </li>
+                    <div class="lines"></div>
+                    </div>
+                    <div class="buttons" id="popup">
+                        <img class="tick"src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png">
+                        <h2>Thank You!</h2>
+                        <p>Your Order is confirmed now</p>
+                        <button onclick="closepopup()" class="popupbtn">OK</button>
+                    </div>
+                    <div class="buts">
+                        <button onclick="submit()" id="mybtn"class="btn">Confirm</button>
+                    </div>
+              
+            </ul>
+              
+
+           
+
+        </div>
+
+       
+    </body>
+</html>
